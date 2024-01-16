@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "applicants",
+  "info": {
+    "singularName": "applicant",
+    "pluralName": "applicants",
+    "displayName": "Applicant",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Name": {
+      "type": "string"
+    },
+    "Email": {
+      "type": "email"
+    },
+    "Phone": {
+      "type": "biginteger"
+    }
+  }
+}

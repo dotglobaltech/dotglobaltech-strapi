@@ -1,0 +1,71 @@
+{
+  "kind": "collectionType",
+  "collectionName": "job_listings",
+  "info": {
+    "singularName": "job-listing",
+    "pluralName": "job-listings",
+    "displayName": "Job Listing"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "title"
+    },
+    "shortText": {
+      "type": "text"
+    },
+    "btnText": {
+      "type": "string",
+      "default": "Continue Reading →"
+    },
+    "JobPosition": {
+      "type": "string"
+    },
+    "Location": {
+      "type": "string"
+    },
+    "JobStatus": {
+      "type": "enumeration",
+      "enum": [
+        "Active",
+        "Deactive"
+      ]
+    },
+    "detailsText": {
+      "type": "richtext"
+    },
+    "Experience": {
+      "type": "integer"
+    },
+    "EmploymentType": {
+      "type": "enumeration",
+      "enum": [
+        "Part-Time",
+        "Full-Time"
+      ]
+    },
+    "WorkMode": {
+      "type": "enumeration",
+      "enum": [
+        "Remote",
+        "Office",
+        "On-Site"
+      ]
+    },
+    "RoleCategory": {
+      "type": "enumeration",
+      "enum": [
+        "Software Developer",
+        "Graphics Design",
+        "Digital Marketing"
+      ]
+    }
+  }
+}

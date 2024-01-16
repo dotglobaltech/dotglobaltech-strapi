@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "ebook_categories",
+  "info": {
+    "singularName": "ebook-category",
+    "pluralName": "ebook-categories",
+    "displayName": "Ebook Category"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "name"
+    },
+    "ebooks": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::ebook.ebook",
+      "inversedBy": "ebook_categories"
+    }
+  }
+}
