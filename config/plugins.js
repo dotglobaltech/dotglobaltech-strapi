@@ -4,17 +4,17 @@ module.exports = ({ env }) => ({
     config: {
       provider: 'nodemailer',
       providerOptions: {
-        host: env('SMTP_HOST', 'mail.antixxtechhub.com'),
-        port: env('SMTP_PORT', 465),
+        host: env('SMTP_HOST', ''),
+        port: env('SMTP_PORT', ),
         auth: {
-          user: env('careers@antixxtechhub.com'),
-          pass: env('2]6!NK{lo3SJ'),
+          user: env(''),
+          pass: env(''),
         },
         // ... any custom nodemailer options
       },
       settings: {
-        defaultFrom: 'careers@antixxtechhub.com',
-        defaultReplyTo: 'careers@antixxtechhub.com',
+        defaultFrom: '',
+        defaultReplyTo: '',
       },
     },
   },
