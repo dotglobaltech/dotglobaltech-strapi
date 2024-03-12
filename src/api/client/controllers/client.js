@@ -1,9 +1,9 @@
 'use strict';
 
 /**
- * insight controller
+ * client controller
  */
 
 const { createCoreController } = require('@strapi/strapi').factories;
 
-module.exports = createCoreController('api::insight.insight');
+module.exports = createCoreController('api::client.client');
