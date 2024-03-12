@@ -11,7 +11,7 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "clientSliders": {
+    "partnerSlides": {
       "type": "component",
       "repeatable": true,
       "component": "partner-images.partner-slides"
