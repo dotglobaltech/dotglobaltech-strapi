@@ -26,8 +26,16 @@
         "audios"
       ]
     },
-    "quite": {
-      "type": "text"
+    "clientLogo": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
     }
   }
 }
