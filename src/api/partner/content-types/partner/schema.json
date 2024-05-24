@@ -12,11 +12,10 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "partnerSlides": {
-      "displayName": "partnerSlides",
+    "PartnerList": {
       "type": "component",
       "repeatable": true,
-      "component": "partner-images.partner-slides"
+      "component": "partner-images.partner-images"
     }
   }
 }

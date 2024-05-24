@@ -9,12 +9,6 @@
     "title": {
       "type": "string"
     },
-    "designation": {
-      "type": "string"
-    },
-    "shortDesc": {
-      "type": "text"
-    },
     "image": {
       "type": "media",
       "multiple": false,
@@ -22,6 +16,12 @@
       "allowedTypes": [
         "images"
       ]
+    },
+    "designation": {
+      "type": "text"
+    },
+    "shortDesc": {
+      "type": "text"
     },
     "linkedin": {
       "type": "string"
